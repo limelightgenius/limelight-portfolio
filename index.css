@@ -1,0 +1,231 @@
+body{
+    height: 1000px;  
+    margin: 0;
+    background: linear-gradient(rgb(6, 21, 134), pink);
+    font-family: 'Abril Fatface', cursive;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    background-color:rd;
+    height: 50px;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+.lime{
+    margin-top: 10px;
+    margin-left:5px;
+background-color: rgb(6, 21, 134);
+padding: 10px 15px;
+height: 20px;
+border-radius: 7px;
+border:rgb(255, 255, 7) 2px solid;
+color:rgb(255, 255, 7);
+font-weight: bold;
+width: 50px;
+position: relative;
+cursor: pointer;
+
+}
+
+.light{
+background-color: lightpink;
+opacity: 0;
+color: black;
+height: 17px;
+margin-top: 2px;
+border-radius: 7px;
+border:rgb(255, 255, 7) 2px solid;
+font-weight: bold;
+position: absolute;
+top: 0;
+right: -73px;
+padding: 8px 15px ;
+
+}
+
+.lime:hover .light{
+    opacity: 1;
+    transition: 1s;
+}
+.Donate{
+    position: absolute;
+    right: 170px;
+    top: 10px;
+    font-size: 15px;
+    padding: 7px 20px;
+    color: yellow;
+    background:linear-gradient(rgb(6, 21, 134), pink) ;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px grey solid;
+    
+}
+.contact{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 15px;
+    padding: 7px 20px;
+    color: yellow;
+    background:linear-gradient(rgb(6, 21, 134), pink) ;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px grey solid;
+}
+.middle-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+
+.profile-image{
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: black 7px solid ;
+  
+}
+
+.under-text{
+    margin-left: 800px;
+     margin-top: 10px;
+     font-weight: bold;
+     font-style: oblique;
+     text-align: center;
+}
+.thank{
+    margin-left: 800px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 7);
+    font-size: 25PX;
+
+}
+.img-div{
+    display: flex;
+    width: 260px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right: 100px;
+}
+
+.img-div:hover{
+box-shadow: 0px 0px 7px rgb(255, 255, 7);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    color:black;
+    margin-left: 150px;
+    margin-top: 50px;
+    
+    
+}
+
+.holla{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.holla:hover{
+    text-shadow: 0px 0px 5px white;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.name:hover{
+    text-shadow: 0px 0px 5px rgb(1, 152, 72);
+}
+
+.field{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.field:hover{
+    text-shadow: 0px 0px 5px rgb(223, 193, 21);
+}
+
+
+.div-container{
+    display: flex;
+    width: 700px;
+    margin-left: 30px;
+    
+}
+
+.div1{
+border: yellow 3px solid;
+width: 700px;
+height: 200px;
+background:linear-gradient(pink, rgb(6, 21, 134)) ;
+font-weight: bold;
+margin-right: 30px;
+padding: 10px 10px;
+text-align: center;
+}
+
+.div2{
+    border:  rgb(255, 255, 7) 3px solid;
+width: 700px;
+height: 200px;
+margin-top: 30px;
+background:linear-gradient(rgb(6, 21, 134), pink) ;
+padding: 10px;
+font-weight: bold;
+margin-right: 30px;
+}
+
+.div3{
+    border: rgb(255, 255, 7) 3px solid;
+    width: 700px;
+    height: 200px;
+    background:linear-gradient(pink, rgb(6, 21, 134)) ;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.div4{
+border: rgb(255, 255, 7) 3px solid;
+width: 700px;
+height: 200px;
+margin-top: 50px;
+background:linear-gradient(rgb(6, 21, 134), pink) ;
+padding: 10px;
+font-weight: bold;
+margin-right: 30px;
+}
+
+.head{
+    color:  rgb(255, 255, 7);
+    text-shadow: 0px 0px 5px black;
+    margin-bottom: 10px;
+}
+
+ol{
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+}
